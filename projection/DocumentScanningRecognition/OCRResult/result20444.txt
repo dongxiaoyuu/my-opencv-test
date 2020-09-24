@@ -1,0 +1,38 @@
+pay Yeu bs SENG WANE SE VN EE Pr vebyt Pasi be
+
+On fine rp we manipulate the top deft pach in Vive an
+age. Which is located at coordinate oor and set it ter tae:
+avalueot (9, 8, 256) Hee were reading thes paved satie
+In RGB format, we would have a value obs for ned, % for
+green, and 256 tor blue. thus making, ita pure Dhue cobor
+
+However, as | mentioned above, We need Eo take special
+care when working with Open@¥ Our prvels are actual.
+stored in BGR format, net RGB format
+
+We actually read this pixel as 255 for red, G for green, and
+O tor blue, making it a red color, uefa blue color
+
+Atter setting the top lett pixel to have a red color on Line
+1g, we then grab the pixel value and print it back to con:
+sole on Lines 15 and 76, just to demonstrate that we have
+indeed successfully changed the color of the pixel
+
+Accessing and setting a single pixel value is simple enous,
+but what if we wanted to use NumPw’s array shomy capa
+bilities to access larger rectangular portions of the image?
+Phe code below demonstrates how we can do this:
+
+ 
+
+. corner smage(S IGG, 4° 160)
+
+wo cv. imshow , surner)
+a amage (0:19, G tue) - Ga, DBS, 2)
+ev? rmshowt » image!
+
+2 ev? wartkeyfO)
+On line 17 we graba 100 | 100 pixel region of the image
+
+In fact, this is the top-left corner of the image! In order to
+grab chunks of an image, NumPy expects we provide four
